@@ -208,6 +208,6 @@ A partir dessa pesquisa, das referências encontradas e das minhas próprias nec
 
 ## ⚖️ Licença e aviso
 
-- 📄 Uso **livre e gratuito** para fins pessoais e educacionais. Se compartilhar, adaptar ou melhores, peço a gentileza de entrar em contato para trabalharmos junto no projeto.
+- 📄 Uso **livre e gratuito** para fins pessoais e educacionais. Se compartilhar, adaptar ou melhorar, peço a gentileza de entrar em contato para trabalharmos junto no projeto.
 - ⚠️ Material **informativo e educacional**. **Não constitui recomendação de investimento.** Você é o responsável por suas decisões, e as planilhas são fornecidas **sem garantias**.
 - 🧪 Dados da versão DEMO são **fictícios**.
