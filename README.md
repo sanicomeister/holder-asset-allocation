@@ -27,11 +27,11 @@ Fazer a conta na mão (ou no olho) costuma dar em compras aleatórias e uma cart
 
 ## ⚙️ Como funciona
 
-1. 🎯 **Defina os objetivos**: o % de cada classe (Ações, FIIs, Renda Fixa, Stocks, REITs, Criptomoedas, Ativos Ilíquidos) e o % de cada ativo dentro da classe.
-2. 📥 **Informe o que você tem** (ticker e quantidade) e o **valor do aporte**.
-3. 🧮 **A planilha calcula** o quanto cada classe e cada ativo está distante do objetivo (o **Rebalance Score**) e divide o aporte por prioridade.
-4. 🛒 **Você recebe o plano de compras**: ativo, quantidade e valor de cada ordem, já com **lote/fração, corretagem, IOF e spread** aplicados.
-5. ✏️ **Compre no home broker**, volte e atualize as quantidades. Pronto.
+1. **Defina os objetivos**: o % de cada classe (Ações, FIIs, Renda Fixa, Stocks, REITs, Criptomoedas, Ativos Ilíquidos) e o % de cada ativo dentro da classe.
+2. **Informe o que você tem** (ticker e quantidade) e o **valor do aporte**.
+3. **A planilha calcula** o quanto cada classe e cada ativo está distante do objetivo (o **Rebalance Score**) e divide o aporte por prioridade.
+4. **Você recebe o plano de compras**: ativo, quantidade e valor de cada ordem, já com **lote/fração, corretagem, IOF e spread** aplicados.
+5. **Compre no home broker**, volte e atualize as quantidades. Pronto.
 
 ```text
 Déficit  = máximo(0 ; Objetivo × (Patrimônio + Aporte) − Valor Atual)
@@ -87,14 +87,14 @@ Aporte do item = Aporte × Score
 
 ## ✨ Destaques
 
-- 🧠 **Rebalance Score**: prioridade proporcional à distância do objetivo, em classes e em ativos.
-- 🌎 **7 classes** em 3 grupos: Brasil (Ações, FIIs, Renda Fixa), Exterior (Stocks, REITs) e Alternativos (Criptomoedas, Ativos Ilíquidos).
-- 🧾 **Ordens realistas**: lote, fração, corretagem, IOF, spread, compra mínima e reaproveitamento da sobra.
-- 💱 **Multimoeda**: BRL, USD, EUR, GBP, CAD, CHF, JPY, AUD e mais duas moedas livres.
-- 🔄 **Cotações automáticas** (Yahoo Finance; CoinGecko opcional para cripto), com **plano B manual**.
-- 🛡️ **Controle de risco**: concentração por ativo, setor, geografia e moeda, com alertas configuráveis.
-- 📊 **Dashboard** com indicadores, plano de compras e 6 gráficos.
-- 🔓 **Sem macros**, tudo em fórmulas abertas e auditáveis. Até **920 posições**.
+- **Rebalance Score**: prioridade proporcional à distância do objetivo, em classes e em ativos.
+- **7 classes** em 3 grupos: Brasil (Ações, FIIs, Renda Fixa), Exterior (Stocks, REITs) e Alternativos (Criptomoedas, Ativos Ilíquidos).
+- **Ordens realistas**: lote, fração, corretagem, IOF, spread, compra mínima e reaproveitamento da sobra.
+- **Multimoeda**: BRL, USD, EUR, GBP, CAD, CHF, JPY, AUD e mais duas moedas livres.
+- **Cotações automáticas** (Yahoo Finance; CoinGecko opcional para cripto), com **plano B manual**.
+- **Controle de risco**: concentração por ativo, setor, geografia e moeda, com alertas configuráveis.
+- **Dashboard** com indicadores, plano de compras e 6 gráficos.
+- **Sem macros**, tudo em fórmulas abertas e auditáveis. Até **920 posições**.
 
 ## 🧪 Exemplo rápido (arquivo DEMO)
 
@@ -130,11 +130,11 @@ Se a internet ou a API falharem, entra a **Cotação Manual** que você deixou p
 
 ## ⚠️ Limitações (transparência em primeiro lugar)
 
-- 🌐 As cotações dependem de serviços de terceiros (Yahoo Finance e CoinGecko), que podem limitar consultas, mudar de formato ou ficar fora do ar.
-- 🧾 O **IOF** e o **spread** padrão vêm da planilha original que inspirou o projeto. **Confirme as alíquotas e custos com a sua corretora.**
-- 🏦 Na **Renda Fixa** e nos **Ilíquidos** não há cotação automática: você atualiza o **Valor Atual**.
-- 🔁 A planilha **sugere**, não executa: a compra e a atualização das quantidades são suas.
-- 📅 Na versão Premium, o histórico patrimonial é registrado por você, uma vez por mês.
+- As cotações dependem de serviços de terceiros (Yahoo Finance e CoinGecko), que podem limitar consultas, mudar de formato ou ficar fora do ar.
+- O **IOF** e o **spread** padrão vêm da planilha original que inspirou o projeto. **Confirme as alíquotas e custos com a sua corretora.**
+- Na **Renda Fixa** e nos **Ilíquidos** não há cotação automática: você atualiza o **Valor Atual**.
+- A planilha **sugere**, não executa: a compra e a atualização das quantidades são suas.
+- Na versão Premium, o histórico patrimonial é registrado por você, uma vez por mês.
 
 ## ❓ FAQ
 
@@ -196,16 +196,18 @@ holder-asset-allocation/
 
 Achou um bug, teve uma ideia ou quer uma classe de ativo nova? 💬
 
-- 🐛 Abra uma [Issue](../../issues) descrevendo o que aconteceu (versão da planilha, programa usado e, se possível, uma captura de tela).
-- 🔒 **Nunca anexe a planilha com os dados da sua carteira real.** Use a DEMO para reproduzir o problema.
-- ⭐ Se a planilha ajudou, deixe uma estrela no repositório. Ajuda outras pessoas a encontrá-la.
+- Abra uma [Issue](../../issues) descrevendo o que aconteceu (versão da planilha, programa usado e, se possível, uma captura de tela).
+- **Nunca anexe a planilha com os dados da sua carteira real.** Use a DEMO para reproduzir o problema.
+- Se a planilha ajudou, deixe uma estrela no repositório. Ajuda outras pessoas a encontrá-la.
 
-## 🙏 Créditos
+## 🙏 Considerações
 
-Projeto **inspirado na lógica da planilha de controle de ativos do Holder**, referência para quem faz rebalanceamento por aportes. Esta é uma construção nova, com outra estrutura, mais classes de ativos, mais automação e painel de risco.
+Este projeto nasceu de uma necessidade pessoal: encontrar uma ferramenta gratuita que reunisse as funcionalidades que eu precisava para controlar meus investimentos e acompanhar o rebalanceamento da carteira por meio de aportes. Como não encontrei nenhuma solução online gratuita que atendesse às minhas necessidades da maneira que eu imaginava, dediquei um tempo a pesquisar, estudar e comparar modelos de planilhas disponíveis em diferentes sites e compartilhados por influenciadores do mercado financeiro.
+
+A partir dessa pesquisa, das referências encontradas e das minhas próprias necessidades, desenvolvi esta solução, inspirada na lógica de controle de ativos e rebalanceamento por aportes da planilha do Holder, mas com estrutura própria, ampliação das classes de ativos, mais automações e um painel de risco. O resultado é uma ferramenta construída para atender à forma como eu gostaria de acompanhar e gerenciar meus investimentos, que decidi compartilhar para que outras pessoas também possam utilizá-la.
 
 ## ⚖️ Licença e aviso
 
-- 📄 Uso **livre e gratuito** para fins pessoais e educacionais. Se compartilhar ou adaptar, mantenha a referência ao projeto.
+- 📄 Uso **livre e gratuito** para fins pessoais e educacionais. Se compartilhar, adaptar ou melhores, peço a gentileza de entrar em contato para trabalharmos junto no projeto.
 - ⚠️ Material **informativo e educacional**. **Não constitui recomendação de investimento.** Você é o responsável por suas decisões, e as planilhas são fornecidas **sem garantias**.
 - 🧪 Dados da versão DEMO são **fictícios**.
